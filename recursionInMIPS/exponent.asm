@@ -48,7 +48,7 @@ power:
 	bne $a1, $zero, notBase
 		li $v0, 1
 		j end
-notBase:
+notBaseCase:
 	addi $s0, $a0, 0 #save base	
 	addi $s1, $a1, 0 #save exp
 	srl $a1, $a1, 1 #exp/2

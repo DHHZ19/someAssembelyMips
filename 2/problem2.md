@@ -1,0 +1,1 @@
+#2. Write a sequence of assembly instructions that will calculate 2n for non-negative values of n. Assume that n is in $a0 when your program starts, and leave the result in $v0. Hint: Start with 1, and double it n times. For full credit, your code should work correctly when n is zero.

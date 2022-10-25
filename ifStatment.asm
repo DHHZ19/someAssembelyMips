@@ -4,8 +4,8 @@ a += b;
 b += a;
 }
 
-  slt $t0, $s0, $s1 #asks a > b
-  bne $t0, $zero, else: # asks if $t0, != $zero if true then branch of to else: label
+  slt $t0, $s0, $s1 #asks if the value in $s0 < $s1
+  bne $t0, $zero, else: # asks if $t0 != $zero if true then branch of to else: label
   add $s1, $s1, $s0 # this is the statment called if they are equal
   
   j end
